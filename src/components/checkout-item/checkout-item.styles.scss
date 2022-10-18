@@ -24,14 +24,15 @@
 
   .quantity {
     display: flex;
+    align-items: center;
 
     .arrow {
       cursor: pointer;
+      font-size: 16px;
     }
 
     .value {
       margin: 0 10px;
-      align-items: center;
     }
   }
 

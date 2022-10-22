@@ -12,7 +12,6 @@ import {
   RemoveButton,
 } from './checkout-item.styles';
 
-
 const CheckoutItem = ({ cartItem }) => {
   const { name, imageUrl, price, quantity } = cartItem
 
@@ -21,7 +20,6 @@ const CheckoutItem = ({ cartItem }) => {
   const addItemHandler = () => addItemToCart(cartItem)
   const removeItemHandler = () => removeItemFromCart(cartItem)
   const clearItemHandler = () => clearItemFromCart(cartItem)
-
 
   return (
     <CheckoutItemContainer>

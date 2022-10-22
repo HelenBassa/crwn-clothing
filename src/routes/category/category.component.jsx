@@ -6,7 +6,6 @@ import { CategoriesContext } from '../../contexts/categories.context'
 
 import { CategoryContainer, Title } from './category.styles';
 
-
 const Category = () => {
   const { category } = useParams()
   const { categoriesMap } = useContext(CategoriesContext)
@@ -15,6 +14,7 @@ const Category = () => {
   useEffect(() => {
     setProducts(categoriesMap[category])
   }, [category, categoriesMap])
+
   return (
     <>
       <Title>{category.toUpperCase()}</Title>

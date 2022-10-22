@@ -4,7 +4,6 @@ import { CartContext } from '../../contexts/cart.context'
 
 import { CartIconConainer, ShoppingIcon, ItemCount } from './cart-icon.styles'
 
-
 const CartIcon = () => {
   const { isCartOpen, setIsCartOpen, cartCount } = useContext(CartContext)
 

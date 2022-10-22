@@ -11,7 +11,6 @@ import {
   Price,
 } from './product-card.styles';
 
-
 const ProductCard = ({ product }) => {
   const { name, price, imageUrl } = product
   const { addItemToCart } = useContext(CartContext)

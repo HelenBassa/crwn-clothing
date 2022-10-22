@@ -1,4 +1,4 @@
-import { useState/*, useContext*/ } from "react"
+import { useState } from "react"
 
 import {
   signInWithGooglePopup,
@@ -15,7 +15,6 @@ const defaultFormFields = {
   password: '',
 }
 
-
 const SignInForm = () => {
   const [formFields, setFormFields] = useState(defaultFormFields)
   const { email, password } = formFields
@@ -27,7 +26,6 @@ const SignInForm = () => {
   const signInWithGoogle = async () => {
     await signInWithGooglePopup()
   }
-
 
   const handleSubmit = async (event) => {
     event.preventDefault()
@@ -51,10 +49,7 @@ const SignInForm = () => {
 
   const handleChange = (event) => {
     const { name, value } = event.target
-
     setFormFields({ ...formFields, [name]: value })
-
-
   }
 
   return (

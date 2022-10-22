@@ -40,8 +40,10 @@ googleProvider.setCustomParameters({
 });
 
 export const auth = getAuth();
+
 export const signInWithGooglePopup = () =>
   signInWithPopup(auth, googleProvider);
+
 export const signInWithGoogleRedirect = () =>
   signInWithRedirect(auth, googleProvider);
 
@@ -84,11 +86,7 @@ export const createUserDocumentFromAuth = async (
   if (!userAuth) return;
 
   const userDocRef = doc(db, "users", userAuth.uid);
-  // console.log(userDocRef);
-
   const userSnapshot = await getDoc(userDocRef);
-  // console.log(userSnapshot);
-  // console.log(userSnapshot.exists());
 
   // if user data does not exist
   if (!userSnapshot.exists()) {
@@ -108,7 +106,7 @@ export const createUserDocumentFromAuth = async (
   }
 
   // if user data exists
-  //return back userDocRef
+  // return back userDocRef
   return userDocRef;
 };
 
@@ -133,6 +131,5 @@ export const onAuthStateChangedListener = (callback) =>
  * error: errorCallback
  * complete: completeCallback
  * }
- *
  *
  */

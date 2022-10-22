@@ -1,6 +1,5 @@
 import { createContext, useState, useEffect } from "react";
 
-
 const addCartItem = (cartItems, prodactToAdd) => {
   // find if cartItems contains productToAdd
   const existingCartItem = cartItems.find(
@@ -31,7 +30,6 @@ const removeCartItem = (cartItems, cartItemToRemove) => {
     return cartItems.filter(cartItem => cartItem.id !== cartItemToRemove.id)
   }
 
-
   // return back cartItems with matching cartItem with reduced quantity
   return cartItems.map((cartItem) =>
     cartItem.id === cartItemToRemove.id
@@ -42,7 +40,6 @@ const removeCartItem = (cartItems, cartItemToRemove) => {
 
 const clearCartItem = (cartItems, cartItemToClear) => cartItems.filter(cartItem => cartItem.id !== cartItemToClear.id)
 
-
 export const CartContext = createContext({
   isCartOpen: false,
   setIsCartOpen: () => { },
@@ -52,7 +49,6 @@ export const CartContext = createContext({
   clearItemFromCart: () => { },
   cartCount: 0,
   cartTotal: 0
-
 })
 
 export const CartProvider = ({ children }) => {
@@ -82,8 +78,6 @@ export const CartProvider = ({ children }) => {
   const clearItemFromCart = (cartItemToClear) => {
     setCartItems(clearCartItem(cartItems, cartItemToClear))
   }
-
-
 
   const value = {
     isCartOpen,

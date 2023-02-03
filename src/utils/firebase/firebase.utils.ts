@@ -9,7 +9,7 @@ import {
   signOut,
   onAuthStateChanged,
   User,
-  NextOrObserver
+  NextOrObserver,
 } from "firebase/auth";
 
 import {
@@ -21,7 +21,7 @@ import {
   writeBatch,
   query,
   getDocs,
-  QueryDocumentSnapshot
+  QueryDocumentSnapshot,
 } from "firebase/firestore";
 
 import { Category } from "../../store/categories/category.types";
@@ -56,8 +56,8 @@ export const signInWithGoogleRedirect = () =>
 export const db = getFirestore();
 
 export type ObjectToAdd = {
-  title: string
-}
+  title: string;
+};
 
 export const addCollectionAndDocuments = async <T extends ObjectToAdd>(
   collectionKey: string,
@@ -75,22 +75,24 @@ export const addCollectionAndDocuments = async <T extends ObjectToAdd>(
   console.log("done");
 };
 
-export const getCategoriesAndDocument = async (): Promise<Category[]> => {
+export const getCategoriesAndDocuments = async (): Promise<Category[]> => {
   const collectionRef = collection(db, "categories");
   const q = query(collectionRef);
   const querySnapshot = await getDocs(q);
-  return querySnapshot.docs.map((docSnapshot) => docSnapshot.data() as Category);
+  return querySnapshot.docs.map(
+    (docSnapshot) => docSnapshot.data() as Category
+  );
 };
 
 export type AdditionalInformation = {
-  displayName?: string
-}
+  displayName?: string;
+};
 
 export type UserData = {
   createdAt: Date;
   displayName: string;
   email: string;
-}
+};
 
 export const createUserDocumentFromAuth = async (
   userAuth: User,
@@ -124,12 +126,18 @@ export const createUserDocumentFromAuth = async (
   return userSnapshot as QueryDocumentSnapshot<UserData>;
 };
 
-export const createAuthUserWithEmailAndPassword = async (email: string, password: string) => {
+export const createAuthUserWithEmailAndPassword = async (
+  email: string,
+  password: string
+) => {
   if (!email || !password) return;
   return await createUserWithEmailAndPassword(auth, email, password);
 };
 
-export const signInAuthUserWithEmailAndPassword = async (email: string, password: string) => {
+export const signInAuthUserWithEmailAndPassword = async (
+  email: string,
+  password: string
+) => {
   if (!email || !password) return;
   return await signInWithEmailAndPassword(auth, email, password);
 };

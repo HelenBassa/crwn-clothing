@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render FormInput component 1`] = `
+<div>
+  <div
+    class="sc-dkrFOg fSosQj"
+  >
+    <input
+      class="sc-gswNZR hmZPfH"
+    />
+  </div>
+</div>
+`;

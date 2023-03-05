@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render CartItem component 1`] = `
+<div>
+  <div
+    class="sc-bcXHqe kasWdQ"
+  >
+    <img
+      alt="Adidas NMD"
+      src="https://i.ibb.co/0s3pdnc/adidas-nmd.png"
+    />
+    <div
+      class="sc-gswNZR gMScrp"
+    >
+      <span>
+        Adidas NMD
+      </span>
+      <span>
+        2
+         x $
+        220
+      </span>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Directory component 1`] = `
+<div>
+  <div
+    class="sc-hLBbgP bpLFCn"
+  >
+    <div
+      class="sc-dkrFOg kupPSc"
+    >
+      <div
+        class="sc-bcXHqe mwYYS"
+      />
+      <div
+        class="sc-gswNZR cGctEJ"
+      >
+        <h2>
+          hats
+        </h2>
+        <p>
+          Shop now
+        </p>
+      </div>
+    </div>
+    <div
+      class="sc-dkrFOg kupPSc"
+    >
+      <div
+        class="sc-bcXHqe hnerAS"
+      />
+      <div
+        class="sc-gswNZR cGctEJ"
+      >
+        <h2>
+          jackets
+        </h2>
+        <p>
+          Shop now
+        </p>
+      </div>
+    </div>
+    <div
+      class="sc-dkrFOg kupPSc"
+    >
+      <div
+        class="sc-bcXHqe iWkgMR"
+      />
+      <div
+        class="sc-gswNZR cGctEJ"
+      >
+        <h2>
+          sneakers
+        </h2>
+        <p>
+          Shop now
+        </p>
+      </div>
+    </div>
+    <div
+      class="sc-dkrFOg kupPSc"
+    >
+      <div
+        class="sc-bcXHqe gASsa-d"
+      />
+      <div
+        class="sc-gswNZR cGctEJ"
+      >
+        <h2>
+          womens
+        </h2>
+        <p>
+          Shop now
+        </p>
+      </div>
+    </div>
+    <div
+      class="sc-dkrFOg kupPSc"
+    >
+      <div
+        class="sc-bcXHqe dRsiuS"
+      />
+      <div
+        class="sc-gswNZR cGctEJ"
+      >
+        <h2>
+          mens
+        </h2>
+        <p>
+          Shop now
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

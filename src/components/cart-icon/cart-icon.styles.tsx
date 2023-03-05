@@ -21,6 +21,9 @@ export const CartIconConainer = styled.div`
     height: 30px;
   }
 `;
+
+CartIconConainer.displayName = "CartIconConainer";
+
 export const ItemCount = styled.span`
   position: absolute;
   font-size: 10px;
@@ -31,3 +34,5 @@ export const ItemCount = styled.span`
     bottom: 6px;
   }
 `;
+
+ItemCount.displayName = "ItemCount";

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ProductCard component 1`] = `
+<div>
+  <div
+    class="sc-gKPRtg gUrvDi"
+  >
+    <img
+      alt="TestProduct"
+      src="testImage.com"
+    />
+    <div
+      class="sc-iBYQkv hzJupy"
+    >
+      <span
+        class="sc-ftTHYK hBCWDW"
+      >
+        TestProduct
+      </span>
+      <span
+        class="sc-pyfCe eraeQQ"
+      >
+        100
+      </span>
+    </div>
+    <button
+      class="sc-dkrFOg sc-eDvSVe KWCcW dVmvZe"
+    >
+      Add to cart
+    </button>
+  </div>
+</div>
+`;

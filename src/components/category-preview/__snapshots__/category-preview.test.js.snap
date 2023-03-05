@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render CategoryPreview component 1`] = `
+<div>
+  <div
+    class="sc-jrcTuL eUAPUz"
+  >
+    <h2>
+      <a
+        class="sc-kDvujY gULvDP"
+        href="/MockTitle"
+      >
+        MOCKTITLE
+      </a>
+    </h2>
+    <div
+      class="sc-ipEyDJ gaiQaj"
+    >
+      <div
+        class="sc-gKPRtg gUrvDi"
+      >
+        <img
+          alt="undefined"
+        />
+        <div
+          class="sc-iBYQkv hzJupy"
+        >
+          <span
+            class="sc-ftTHYK hBCWDW"
+          />
+          <span
+            class="sc-pyfCe eraeQQ"
+          />
+        </div>
+        <button
+          class="sc-dkrFOg sc-eDvSVe KWCcW dVmvZe"
+        >
+          Add to cart
+        </button>
+      </div>
+      <div
+        class="sc-gKPRtg gUrvDi"
+      >
+        <img
+          alt="undefined"
+        />
+        <div
+          class="sc-iBYQkv hzJupy"
+        >
+          <span
+            class="sc-ftTHYK hBCWDW"
+          />
+          <span
+            class="sc-pyfCe eraeQQ"
+          />
+        </div>
+        <button
+          class="sc-dkrFOg sc-eDvSVe KWCcW dVmvZe"
+        >
+          Add to cart
+        </button>
+      </div>
+      <div
+        class="sc-gKPRtg gUrvDi"
+      >
+        <img
+          alt="undefined"
+        />
+        <div
+          class="sc-iBYQkv hzJupy"
+        >
+          <span
+            class="sc-ftTHYK hBCWDW"
+          />
+          <span
+            class="sc-pyfCe eraeQQ"
+          />
+        </div>
+        <button
+          class="sc-dkrFOg sc-eDvSVe KWCcW dVmvZe"
+        >
+          Add to cart
+        </button>
+      </div>
+      <div
+        class="sc-gKPRtg gUrvDi"
+      >
+        <img
+          alt="undefined"
+        />
+        <div
+          class="sc-iBYQkv hzJupy"
+        >
+          <span
+            class="sc-ftTHYK hBCWDW"
+          />
+          <span
+            class="sc-pyfCe eraeQQ"
+          />
+        </div>
+        <button
+          class="sc-dkrFOg sc-eDvSVe KWCcW dVmvZe"
+        >
+          Add to cart
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

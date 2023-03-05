@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render CheckoutItem component 1`] = `
+<div>
+  <div
+    class="sc-bcXHqe geWseC"
+  >
+    <div
+      class="sc-gswNZR bMaIyz"
+    >
+      <img
+        alt="Adidas NMD"
+        src="https://i.ibb.co/0s3pdnc/adidas-nmd.png"
+      />
+    </div>
+    <span
+      class="sc-dkrFOg hlmRre"
+    >
+      Adidas NMD
+    </span>
+    <span
+      class="sc-dkrFOg sc-hLBbgP hlmRre kaFhub"
+    >
+      <div
+        class="sc-eDvSVe cZUUBe"
+      >
+        ❮
+      </div>
+      <span
+        class="sc-jSUZER blfUCp"
+      >
+        2
+      </span>
+      <div
+        class="sc-eDvSVe cZUUBe"
+      >
+        ❯
+      </div>
+    </span>
+    <span
+      class="sc-dkrFOg hlmRre"
+    >
+      220
+    </span>
+    <div
+      class="sc-gKPRtg jRpdXo"
+    >
+      ✕
+    </div>
+  </div>
+</div>
+`;

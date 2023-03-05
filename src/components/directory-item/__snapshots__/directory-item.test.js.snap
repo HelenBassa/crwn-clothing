@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render DirectoryItem component 1`] = `
+<div>
+  <div
+    class="sc-dkrFOg kupPSc"
+  >
+    <div
+      class="sc-bcXHqe mwYYS"
+    />
+    <div
+      class="sc-gswNZR cGctEJ"
+    >
+      <h2>
+        hats
+      </h2>
+      <p>
+        Shop now
+      </p>
+    </div>
+  </div>
+</div>
+`;

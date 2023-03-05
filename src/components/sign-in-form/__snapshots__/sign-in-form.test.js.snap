@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render SignInForm component 1`] = `
+<div>
+  <div
+    class="sc-pyfCe fUYaTT"
+  >
+    <h2>
+      Already have an account?
+    </h2>
+    <span>
+      Sign in with your email and password
+    </span>
+    <form>
+      <div
+        class="sc-dkrFOg fSosQj"
+      >
+        <input
+          class="sc-gswNZR hmZPfH"
+          name="email"
+          required=""
+          type="email"
+          value=""
+        />
+        <label
+          class="sc-bcXHqe hroYIK"
+        >
+          Email
+        </label>
+      </div>
+      <div
+        class="sc-dkrFOg fSosQj"
+      >
+        <input
+          class="sc-gswNZR hmZPfH"
+          name="password"
+          required=""
+          type="password"
+          value=""
+        />
+        <label
+          class="sc-bcXHqe hroYIK"
+        >
+          Password
+        </label>
+      </div>
+      <div
+        class="sc-jrcTuL irwjLS"
+      >
+        <button
+          class="sc-jSUZER cmJkBU"
+          type="submit"
+        >
+          Sign In
+        </button>
+        <button
+          class="sc-jSUZER sc-gKPRtg cmJkBU gAXer"
+          type="button"
+        >
+          Google Sign In
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

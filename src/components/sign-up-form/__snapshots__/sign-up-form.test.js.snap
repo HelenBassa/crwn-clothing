@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render SignUpForm component 1`] = `
+<div>
+  <div
+    class="sc-pyfCe fUYaTT"
+  >
+    <h2>
+      Don't have an account?
+    </h2>
+    <span>
+      Sign up with your email and password
+    </span>
+    <form>
+      <div
+        class="sc-dkrFOg fSosQj"
+      >
+        <input
+          class="sc-gswNZR hmZPfH"
+          name="displayName"
+          required=""
+          type="text"
+          value=""
+        />
+        <label
+          class="sc-bcXHqe hroYIK"
+        >
+          Display Name
+        </label>
+      </div>
+      <div
+        class="sc-dkrFOg fSosQj"
+      >
+        <input
+          class="sc-gswNZR hmZPfH"
+          name="email"
+          required=""
+          type="email"
+          value=""
+        />
+        <label
+          class="sc-bcXHqe hroYIK"
+        >
+          Email
+        </label>
+      </div>
+      <div
+        class="sc-dkrFOg fSosQj"
+      >
+        <input
+          class="sc-gswNZR hmZPfH"
+          name="password"
+          required=""
+          type="password"
+          value=""
+        />
+        <label
+          class="sc-bcXHqe hroYIK"
+        >
+          Password
+        </label>
+      </div>
+      <div
+        class="sc-dkrFOg fSosQj"
+      >
+        <input
+          class="sc-gswNZR hmZPfH"
+          name="confirmPassword"
+          required=""
+          type="password"
+          value=""
+        />
+        <label
+          class="sc-bcXHqe hroYIK"
+        >
+          Confirm Password
+        </label>
+      </div>
+      <button
+        class="sc-jSUZER cmJkBU"
+        type="submit"
+      >
+        Sign Up
+      </button>
+    </form>
+  </div>
+</div>
+`;

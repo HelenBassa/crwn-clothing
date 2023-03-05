@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render PaymentForm component 1`] = `
+<div>
+  <div
+    class="sc-gKPRtg kJaasa"
+  >
+    <form
+      class="sc-iBYQkv iuMaOw"
+    >
+      <h2>
+        Credit Card Payment: 
+      </h2>
+      <div />
+      <button
+        class="sc-dkrFOg sc-eDvSVe KWCcW dVmvZe sc-ftTHYK CUWzl"
+      >
+        Pay now
+      </button>
+    </form>
+  </div>
+</div>
+`;

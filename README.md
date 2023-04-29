@@ -35,7 +35,7 @@ Cart Page:
  <img width=20 height=20 src="https://testing-library.com/img/octopus-64x64.png"> [Testing Library](https://testing-library.com/) - Simple and complete testing utilities that encourage good testing practices
 
 ### Deploy
- <img width=20 height=20 src="https://www.netlify.com/img/global/favicon/favicon-32x32.png"> [Netlify](https://www.netlify.com/) - Web hosting and automation platform that accelerates development productivity
+ <img width=20 height=20 src="https://user-images.githubusercontent.com/31656183/235294557-0c16940a-6765-4ca1-b5fd-2499f74e2566.png"> [Netlify](https://www.netlify.com/) - Web hosting and automation platform that accelerates development productivity
 
 
 # Local app launch and test launch instructions
